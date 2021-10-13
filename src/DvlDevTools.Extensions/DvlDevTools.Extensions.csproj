@@ -3,10 +3,55 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <ApplicationIcon>dvldev_logo.ico</ApplicationIcon>
+    <Authors>Vlachopoulos Dimitris</Authors>
+    <Product>DvlDevTools.Extensions</Product>
+    <PackageIcon>logo.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryUrl>https://github.com/HaruTzuki/DvlDevTools.Extensions</RepositoryUrl>
+    <PackageTags>Extension</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>Copyright (c) &lt;name/company&gt; &lt;year&gt;.</Copyright>
+    <Description>Some common converts such as Convert.ToInt32 can simplify using this tool. More information in Github.</Description>
+    <PackageReleaseNotes>Provides :
+- String Conditions:
+    - IsNullOrEmpty()
+    - IsNullOrWhiteSpace()
+    - IsNumberOverflow()
+- String to Number Extensions
+    - ToByte()
+    - ToShort()
+    - ToInt()
+    - ToLong()
+    - ToUByte()
+    - ToUShort()
+    - ToUInt()
+    - ToULong()
+- Object Extensions
+    - ToJson()
+    - ToXml()
+    - JsonToObject&lt;TResult&gt;()
+    - XmlToObject&lt;TResult&gt;()
+    - IsIn&lt;TSource&gt;()
+- Enumerable Extensions
+    - ForEach&lt;TSource&gt;()</PackageReleaseNotes>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageProjectUrl>https://github.com/HaruTzuki/DvlDevTools.Extensions</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Users\dvlachopoulos\Desktop\logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
