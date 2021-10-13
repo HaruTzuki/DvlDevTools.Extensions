@@ -9,7 +9,7 @@
     <PackageIconUrl />
     <RepositoryUrl>https://github.com/HaruTzuki/DvlDevTools.Extensions</RepositoryUrl>
     <PackageTags>Extension</PackageTags>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Copyright>Copyright (c) &lt;name/company&gt; &lt;year&gt;.</Copyright>
     <Description>Some common converts such as Convert.ToInt32 can simplify using this tool. More information in Github.</Description>
     <PackageReleaseNotes>Provides :
