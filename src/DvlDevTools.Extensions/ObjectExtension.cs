@@ -15,7 +15,7 @@ namespace DvlDevTools.Extensions
 	/// <summary>
 	/// Object Extension Class. Provides new ability to various kind of objects.
 	/// </summary>
-    public static class ObjectSerializationExtension
+    public static class ObjectExtension
     {
 		/// <summary>
 		/// Convert Json text to specified object.
@@ -121,5 +121,17 @@ namespace DvlDevTools.Extensions
 	    {
 		    return options.Contains(source);
 	    }
+
+		/// <summary>
+		/// Check if value of an object is null.
+		/// </summary>
+		/// <param name="source"></param>
+		/// <returns></returns>
+		public static bool IsNull(this object source)
+		{
+			return source == null;
+		}
+
+		
     }
 }
