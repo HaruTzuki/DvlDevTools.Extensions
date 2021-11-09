@@ -9,8 +9,8 @@
     <PackageIconUrl />
     <RepositoryUrl>https://github.com/HaruTzuki/DvlDevTools.Extensions</RepositoryUrl>
     <PackageTags>Extension</PackageTags>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <Copyright>Copyright (c) &lt;name/company&gt; &lt;year&gt;.</Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>Copyright (c) Vlachopoulos Dimitris 2021.</Copyright>
     <Description>Some common converts such as Convert.ToInt32 can simplify using this tool. More information in Github.</Description>
     <PackageReleaseNotes>Provides :
 - String Conditions:
@@ -37,6 +37,7 @@
     <NeutralLanguage>en</NeutralLanguage>
     <PackageProjectUrl>https://github.com/HaruTzuki/DvlDevTools.Extensions</PackageProjectUrl>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -44,7 +45,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\..\..\Users\dvlachopoulos\Desktop\logo.png">
+    <None Include="..\..\..\..\..\..\Desktop\logo.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
